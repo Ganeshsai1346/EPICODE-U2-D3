@@ -1,0 +1,98 @@
+/** @format */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.container {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+#main {
+  font-size: 25px;
+  display: flex;
+  flex: 2;
+}
+#main > article {
+  flex-grow: 3;
+}
+#main > nav {
+  flex-grow: 1;
+  background: darkmagenta;
+}
+#main > aside {
+  flex-grow: 1;
+  background: blue;
+}
+header,
+footer {
+  font-size: 25px;
+  background: rgb(3, 15, 51);
+  height: 20vh;
+}
+header,
+footer,
+nav,
+aside {
+  padding: 1em;
+  color: white;
+  font-weight: bold;
+}
+article {
+  color: black;
+  padding: 1em;
+
+  font-weight: bold;
+}
+/* .box {
+  width: 100px;
+  height: 100px;
+  padding-left: 7px;
+  padding-top: 12px;
+  color: white;
+  font-weight: 700;
+  background-color: rgb(3, 36, 79);
+  align-items: center;
+}
+.clr-article {
+  color: black;
+  background-color: aliceblue;
+}
+.clr-aside {
+  background-color: rgb(6, 89, 232);
+}
+.clr-nav {
+  background-color: rgb(245, 56, 197);
+} */
+
+/* .header {
+  width: 100px;
+  height: 100px;
+  color: white;
+  background-color: rgb(1, 12, 26);
+}
+.text {
+  padding-top: 20px;
+  padding-left: 15px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.middle > p {
+  width: 100px;
+  height: 100px;
+  color: white;
+  background-color: rgb(1, 12, 26);
+}
+.footer {
+  width: 100px;
+  height: 100px;
+  color: white;
+  background-color: rgb(1, 12, 26);
+}
+ */
